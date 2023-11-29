@@ -19,7 +19,7 @@ export default function TextField({
         <input
           type={type}
           value={value}
-          onChange={onChange}
+          onChange={e => onChange(e.target.value)}
           name={name}
           id={name}
           className="TextField-input"
