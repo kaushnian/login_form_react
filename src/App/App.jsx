@@ -1,5 +1,5 @@
-import './App.css';
+import SignupForm from '../components/SignupForm/SignupForm';
 
 export default function App() {
-  return <div className="App">APP</div>;
+  return <SignupForm />;
 }
